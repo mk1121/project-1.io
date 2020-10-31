@@ -1,0 +1,158 @@
+/* Responsive Started */
+
+
+/* Samsung Galaxy S5 */
+
+
+/* Viewport: 360px x 640px */
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    /* Default CSS Start */
+    .container {
+        width: 310px;
+        margin: auto !important;
+    }
+    .section_head {
+        font-size: 26pt;
+    }
+    /* Navigation Bar */
+    .nav {
+        display: block;
+    }
+    .nav input, .nav label {
+        display: block;
+    }
+    .check_box {
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .nav ul {
+        position: absolute;
+        left: -100%;
+        width: 100%;
+        background: red;
+        top: 12%;
+        height: 50px;
+        padding: 25px 0 41px 0px;
+        visibility: hidden;
+        z-index: 1;
+        text-align: center;
+        padding: 20px auto;
+    }
+    .nav ul li {
+        display: block;
+    }
+    #check{
+        display: none;
+    }
+
+    #check:checked ~ ul {
+        visibility: visible;
+        left: 0;
+    }
+
+    /* Banner Section Start */
+    .banner_content {
+        padding: 180px 0px;
+    }
+    .banner_content h1 {
+        font-size: 20pt;
+    }
+    .banner_content p {
+        font-size: 12pt;
+    }
+    .gallery_col {
+        width: 100%;
+    }
+    .f_gallery {
+        padding: 20px 24px;
+    }
+    .gallery_row {
+        padding: 0;
+    }
+    .g_pl,
+    .g_pt,
+    .gr_pb {
+        padding: 0;
+    }
+    .gallery {
+        padding: 15px 24px;
+    }
+    .f_head h2::after {
+        width: 235px;
+    }
+    .section_details {
+        font-size: 12pt;
+    }
+    /* Team Section  */
+    .team {
+        background: #f2f2f2;
+    }
+    .tm_col {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+    .tm_row {
+        padding: 0;
+    }
+    .member {
+        padding: 32px 0px;
+        width: 210px;
+        height: 185px;
+    }
+    .tm_col {
+        width: 72%;
+        margin: 13px 42px;
+        padding: 0 0;
+    }
+    .map {
+        height: 300px;
+        width: 290px;
+        margin: 30px 0 40px -83px;
+    }
+    .c_head {
+        margin: 0px 0px 0px -111px;
+        width: 355px;
+        text-align: center;
+    }
+    .contact_col_2 {
+        float: none;
+        
+    }
+    .email {
+        height: 27px;
+        font-size: 9pt;
+        width: 250px;
+    }
+    .msg {
+        width: 238px;
+    }
+    .send {
+        width: 85px;
+        height: 44px;
+        font-size: 15px;
+        margin: 40px 0;
+    }
+    form {
+        margin: 20px -72px;
+    }
+    .ftr_copy {
+        padding: 13px 0px;
+        font-size: 5pt;
+    }
+    .ftr_copy {
+        font-size: 5pt;
+    }
+    .ftr_col_1 {
+        text-align: left;
+        width: 70%;
+    }
+    .ftr_col_2 {
+        text-align: right;
+        width: 30%;
+    }
+
+
+}
