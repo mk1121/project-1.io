@@ -1,0 +1,427 @@
+/* Default CSS Started */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto !important;
+}
+
+.clr {
+    clear: both;
+}
+
+@font-face {
+    src: url(../font/GothamMedium.ttf);
+    font-family: nav_font;
+}
+
+@font-face {
+    src: url(../font/GothamBold.ttf);
+    font-family: head_font;
+}
+
+@font-face {
+    src: url(../font/georgia\ italic.ttf);
+    font-family: para_font_1;
+}
+
+@font-face {
+    src: url(../font/ProximaNova-Regular.otf);
+    font-family: d_font;
+}
+
+.section_head {
+    font-family: head_font;
+    font-size: 30pt;
+    color: #303030;
+}
+
+.section_details {
+    font-family: d_font;
+    font-size: 16pt;
+    color: #5a5a5a;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+
+/* Default CSS End */
+
+
+/* Navigation Bar Started  */
+
+.navbar {
+    background: #f2f2f2;
+    padding: 40px;
+}
+
+.logo {
+    /* float: left; */
+    display: inline-block;
+}
+
+.nav {
+    float: right;
+}
+.nav input, .nav label{
+    display:none;
+}
+
+.nav ul li {
+    /* float: left; */
+    display: inline-block;
+}
+
+.nav ul li a {
+    padding: 15px 35px 15px 35px;
+    font-family: nav_font;
+    color: #a7a7a7;
+    transition: all linear .5s;
+}
+
+.nav ul li a:hover {
+    color: #000033;
+}
+
+
+/* Navigation Bar End */
+
+
+/* Banner Section Start */
+
+.banner {
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_content {
+    text-align: center;
+    padding: 200px;
+    position: relative;
+}
+
+.banner_content h1 {
+    color: #303030;
+    font-family: head_font;
+    text-transform: uppercase;
+    font-size: 40pt;
+}
+
+.banner_content p {
+    font-family: para_font_1;
+    color: #5a5a5a;
+    font-size: 16pt;
+}
+
+.bb_ly2 {
+    height: 80px;
+    width: 80px;
+    background: #ffffff80;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bb_ly1 {
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, .5);
+}
+
+.bb_ly2 img {
+    margin: 17px;
+}
+
+.bnr_btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Banner Section End */
+
+
+/* Feature Section Start */
+
+.f_head {
+    text-align: center;
+}
+
+.f_head h2 {
+    position: relative;
+}
+
+.f_head h2::after {
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    left: 50%;
+    height: 3px;
+    width: 275px;
+    background: #000;
+    transform: translate(-50%, -50%);
+}
+
+.gallery_row {
+    padding: 0px 120px;
+}
+
+.gallery_col {
+    width: 30.33%;
+    display: inline-block;
+}
+
+.g_pl {
+    padding-left: 54px;
+}
+
+.g_pt {
+    padding-top: 30px;
+}
+
+.gr_pb {
+    padding-bottom: 30px;
+}
+
+
+/* Feature Section End */
+
+
+/* Team Section Start */
+
+.team {
+    background: #f2f2ff;
+}
+
+.team_head {
+    text-align: center;
+}
+
+.t_head {
+    position: relative;
+}
+
+.t_head::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 150px;
+    background: #111;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tm_col {
+    float: left;
+    width: 20%;
+    padding: 11px;
+    background: #fff;
+    text-align: center;
+    margin: 13px;
+    box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, .5);
+}
+
+.member {
+    padding: 36px 12px;
+    width: 210px;
+    height: 210px;
+}
+
+.mmb_dt h3 {
+    font-family: head_font;
+    font-size: 16px;
+    color: #303030;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.mmb_dt p {
+    font-family: para_font_1;
+    font-size: 12px;
+    color: #303030;
+    margin-bottom: 24px;
+}
+
+.mmb_sc a {
+    padding: 5px;
+    transition: all linear .3s;
+    color: #111;
+}
+
+.mmb_sc a:hover {
+    color: #89a5b0;
+}
+
+.tm_row {
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+
+/* Team Section End */
+
+
+/* Contact Section Start  */
+
+.contact_head {
+    text-align: center;
+}
+
+.contact_head h2 {
+    position: relative;
+}
+
+.contact_head h2::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 150px;
+    background: #111;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact_col {
+    float: left;
+}
+
+.contact_col {
+    float: left;
+    /* width: 50%; */
+}
+
+.contact_row {
+    padding: 30px 90px;
+}
+
+.contact_col_2 {
+    float: right;
+    /* width: 50%; */
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.map {
+    height: 320px;
+    width: 320px;
+}
+
+.c_head {
+    font-size: 18px;
+    font-family: d_font;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+}
+
+.msg {
+    width: 540px;
+    height: 235px;
+    padding: 20px;
+    font-family: para_font_1;
+    background: #f2f2f2;
+    font-size: 16pt;
+}
+
+.email {
+    width: 312px;
+    height: 60px;
+    padding: 0px 15px;
+    font-family: para_font_1;
+    color: #5a5a5a;
+    background: #f2f2f2;
+    font-size: 16pt;
+}
+
+.send {
+    width: 205px;
+    height: 60px;
+    background: #6995a9;
+    font-size: 20px;
+    font-family: head_font;
+    color: #fff;
+    cursor: pointer;
+    border: 3px solid #f2f2ff;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, .5);
+    margin-left: 30px;
+}
+
+.usr_mail {
+    margin-top: 25px;
+}
+
+.map {
+    height: 320px;
+    width: 320px;
+    border: 5px solid #fff;
+    box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, .5);
+}
+
+
+/* Contact Section  */
+
+.ftr_copy {
+    background: #4f4f4f;
+    padding: 40px 0px;
+    font-family: d_font;
+    font-size: 16pt;
+}
+
+.ftr_col_1 {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.ftr_col_1 p {
+    color: #6e6e6e;
+    padding: 0px 2px;
+}
+
+.ftr_col_1 p strong {
+    color: #8b8b8b;
+    margin-right: 5px;
+}
+
+.ftr_col_2 {
+    float: right;
+    text-align: center;
+    width: 50%;
+    color: #6e6e6e;
+}
